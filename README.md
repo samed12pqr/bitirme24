@@ -14,9 +14,3 @@ DoG Filtresi Kerneli
 
 ![Screenshot_2](https://github.com/samed12pqr/bitirme24/assets/165570990/d63133e1-e00b-4279-896a-f5cbaca97ed5)
 
-Son güncellemeler
-
-- UART modülü tasarlandı ve Baudrate Timer ayrı bir modül yapıldı. (Top modul iki ayrı instination yapıyor, düzeltilmesi gerekebilir)
-- Sağa kaydırma modülü tasarlandı. Bu modül ileride kenar filtresi olacaktır.
-- Vivado artık FSM'leri algılıyor fakat halen daha yapılması gereken düzeltmeler var.
-- MATLAB'den FPGA'ye 8 bit data gönderme testi yapıldı. 400 elemanlı bir vektörü başarıyla sağa kaydırıp MATLAB'e geri alabiliyoruz. Fakat FPGA ilk programlandığında MATLAB'e dönen datalar anlamsız değerler içeriyor.
